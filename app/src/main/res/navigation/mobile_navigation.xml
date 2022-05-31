@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <activity
+        android:id="@+id/nav_class"
+        android:name="com.example.apguidesandpractice.ClassActivity"
+        android:label="@string/menu_class"
+        tools:layout="@layout/activity_class" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.apguidesandpractice.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_curriculum"
+        android:name="com.example.apguidesandpractice.CurriculumFragment"
+        android:label="@string/menu_class"
+        tools:layout="@layout/fragment_curriculum" >
+        <action
+            android:id="@+id/action_nav_curriculum_to_nav_practice"
+            app:destination="@id/nav_practice" />
+        <action
+            android:id="@+id/action_nav_curriculum_to_nav_test"
+            app:destination="@id/nav_test" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_practice"
+        android:name="com.example.apguidesandpractice.PracticeFragment"
+        android:label="@string/menu_class"
+        tools:layout="@layout/fragment_practice" >
+        <action
+            android:id="@+id/action_nav_practice_to_nav_curriculum"
+            app:destination="@id/nav_curriculum" />
+        <action
+            android:id="@+id/action_nav_practice_to_nav_test"
+            app:destination="@id/nav_test" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_test"
+        android:name="com.example.apguidesandpractice.TestFragment"
+        android:label="@string/menu_class"
+        tools:layout="@layout/fragment_test" >
+        <action
+            android:id="@+id/action_nav_test_to_nav_practice"
+            app:destination="@id/nav_practice" />
+        <action
+            android:id="@+id/action_nav_test_to_nav_curriculum"
+            app:destination="@id/nav_curriculum" />
+    </fragment>
+
+    <activity
+        android:id="@+id/nav_topic_list"
+        android:name="com.example.apguidesandpractice.topic_resources.TopicListActivity"
+        android:label="@string/menu_topic_list"
+        tools:layout="@layout/activity_topic_list" />
+</navigation>

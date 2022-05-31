@@ -1,0 +1,38 @@
+[
+  {
+    "class_name": "Calculus AB",
+    "unit": 1,
+    "topic_name": "Introducing Calculus: Can Change Occur at an Instant?",
+    "topic_id": 1,
+    "enduring_understanding": "Calculus allows us to generalize knowledge about motion to diverse problems involving change.",
+    "learning_objectives": ["Interpret the rate of change at an instant in terms of average rates of change over intervals containing that instant."],
+    "essential_knowledge": [["Calculus uses limits to understand and model dynamic change.", "Because an average rate of change divides the change in one variable by the change in another, the average rate of change is undefined at a point where the change in the independent variable would be zero.", "The limit concept allows us to define instantaneous rate of change in terms of average rates of change."]]
+  },
+  {
+    "class_name": "Calculus AB",
+    "unit": 1,
+    "topic_name": "Defining Limits and Using Limit Notation",
+    "topic_id": 2,
+    "enduring_understanding": "Reasoning with definitions, theorems, and properties can be used to justify claims about continuity. ",
+    "learning_objectives": ["Represent limits analytically using correct notation.", "Interpret limits expressed in analytic notation."],
+    "essential_knowledge": [["Given a function f, the limit of f(x) as x approaches c is a real number L if f(x) can be made arbitrarily close to L by taking x sufficiently close to c (but not equal to c). If the limit exists and is a real number, then the common notation is the limit as x approaches c of f(x) is L."], ["A limit can be expressed in multiple ways, including graphically, numerically, and analytically."]]
+  },
+  {
+    "class_name": "Calculus AB",
+    "unit": 2,
+    "topic_name": "Defining Average and Instantaneous Rates of Change at a Point",
+    "topic_id": 1,
+    "enduring_understanding": "Derivatives allow us to determine rates of change at an instant by applying limits to knowledge about rates of change over intervals.",
+    "learning_objectives": ["Determine average rates of change using difference quotients.", "Represent the derivative of a function as the limit of a difference quotient."],
+    "essential_knowledge": [["The difference quotients (f(a+h)-f(a))/h and (f(x)-f(a))/(x-a) express the average rate of change of a function over an interval."], ["The instantaneous rate of change of a function at x = a can be expressed by the limit as h approaches 0 of (f(a+h)-f(a))/h or the limit as x approaches a of (f(x)-f(a))/(x-a), provided the limit exists. These are equivalent forms of the definition of the derivative and are denoted f'(a)."]]
+  },
+  {
+    "class_name": "Calculus AB",
+    "unit": 2,
+    "topic_name": "Defining the Derivative of a Function and Using Derivative Notation",
+    "topic_id": 2,
+    "enduring_understanding": "Derivatives allow us to determine rates of change at an instant by applying limits to knowledge about rates of change over intervals.",
+    "learning_objectives": ["Represent the derivative of a function as the limit of a difference quotient.", "Determine the equation of a line tangent to a curve at a given point."],
+    "essential_knowledge": [["The derivative of f is the function whose value at x is the limit as h approaches 0 of (f(x+h)-f(x))/h, provided this limit exists.", "For y = f(x), notations for the derivative include dy/dx , f'(x), and y'.", "The derivative can be represented graphically, numerically, analytically, and verbally."], ["The derivative of a function at a point is the slope of the line tangent to a graph of the function at that point.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScroll functionality example"]]
+  }
+]
